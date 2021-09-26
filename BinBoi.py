@@ -1,4 +1,10 @@
 from gpiozero import *
+import board
+import neopixel
+pixel_pin = board.D18
+num_pixels = 30
+ORDER = neopixel.GRB
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.2, auto_write=False, pixel_order=ORDER)
 sensorM = DigitalInputDevice(25)
 sensorL = DigitalInputDevice(15)
 sensorR = DigitalInputDevice(24)
