@@ -44,7 +44,7 @@ class Big_work:
   #def moveLeft(self, hardness):
     #leg1.foward(hardness):
     #leg2.stop()
-    #pixels.fill((0, 255, 0))
+    #pixels.fill((229, 5, 237))
   #def moveRight(self, hardness):
     #leg2.foward(hardness):
     #leg1.stop()
