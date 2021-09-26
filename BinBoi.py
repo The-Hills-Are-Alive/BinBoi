@@ -40,14 +40,18 @@ class Big_work:
   #def moveFoward (self, hardness):
     #leg1.foward(hardness)
     #leg2.foward(hardness)
+    #pixels.fill((22, 247, 210))
   #def moveLeft(self, hardness):
     #leg1.foward(hardness):
     #leg2.stop()
+    #pixels.fill((0, 255, 0))
   #def moveRight(self, hardness):
     #leg2.foward(hardness):
     #leg1.stop()
+    #pixels.fill((0, 255, 0))
   #def stop(self):
     #leg1.stop()
+    #pixels.fill((0, 255, 0))
     #leg2.stop()
 #main
 bruh=Big_work()
